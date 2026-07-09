@@ -1,0 +1,4 @@
+signature,condition,n_genes,n_perturb,test_pearson,test_pearson_se,test_spearman,test_r2,train_pearson
+tumor,Rest,9447,2552,0.574,0.0051,0.54,0.328,0.582
+tumor,Stim8hr,9447,2740,0.512,0.0037,0.47,0.262,0.526
+tumor,Stim48hr,9447,2582,0.506,0.0051,0.466,0.256,0.518

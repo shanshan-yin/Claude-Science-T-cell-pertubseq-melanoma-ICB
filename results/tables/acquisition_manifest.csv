@@ -1,0 +1,5 @@
+object,path,shape,source,note
+perturb_atlas_zscore,data/atlas/GWCD4i_zscore_subset.h5ad,7874x10282,CZI S3 GWCD4i.DE_stats.h5ad (streamed),"7874 perturbation x condition, >=10 DE genes; zscore layer only"
+SadeFeldman_CD4,data/cd4/SadeFeldman_CD4.h5ad,5391x55737,"GSE120575 (Sade-Feldman 2018, Cell)","CD4 T cells, tumor, Smart-seq2 TPM; R/NR labels"
+published_CD4_programs,data/cd4/published_CD4_programs.csv,25x4,Mitra & Thompson 2023 CCR-23-0653 (text-verified); cytotoxic-CD4 markers domain-curated (concept per Bae 2025),validation gene sets
+Yost_BCC_SCC,(deferred),-,GSE123813,CD4 clusters present but R/NR labels only in Supp Table 1 (PMC web blocked); deferred
