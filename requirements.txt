@@ -1,0 +1,25 @@
+# Analysis environment (Python 3.11.15). Versions below were read directly
+# from the scrnaseq-perturbseq conda env used to produce every result in
+# results/. Recommended: create a fresh env, then `pip install -r requirements.txt`.
+scanpy==1.11.5
+anndata==0.12.19
+scvi-tools==1.4.2
+pertpy==1.0.3
+pydeseq2==0.5.4
+scikit-learn==1.9.0
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.17.1
+matplotlib==3.11.0
+h5py==3.16.0
+adjustText==1.4.0
+statsmodels==0.14.6
+leidenalg==0.12.0
+harmonypy==2.0.0
+
+# Perturb2StateModel — install from the source tarball (NOT git+https):
+#   pip install https://github.com/emdann/pert2state_model/archive/refs/heads/main.tar.gz
+
+# Reporting only (used to generate the .docx files in results/reports/; not
+# part of the analysis env). Version from the reporting environment.
+python-docx==1.2.0
