@@ -6,7 +6,6 @@ signature in melanoma. Instead of the source paper's young-vs-old "aging" signat
 we ask: **which CD4⁺ knockdowns reproduce the transcriptional state that separates
 ICB non-responders from responders — and are any of them druggable?**
 
-![Figure 5](results/figures/figure5_composite.png)
 
 ## Summary of findings
 
