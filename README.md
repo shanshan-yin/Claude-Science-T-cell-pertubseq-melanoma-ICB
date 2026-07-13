@@ -42,9 +42,9 @@ for the formatted report.
 │   ├── 05_panelC_prediction.py             Panel C — prediction accuracy bars
 │   ├── 06_panelD_regulator_effects.py      Panel D — predicted regulator effects
 │   ├── 07_panelEF_pathway_regulated_genes.py  Panels E/F — pathway-regulated genes
-│   └── 10_figure5_composite.py             assemble the 7-panel composite
+│   └── 10_figure5_composite.py             assemble the 8-panel composite
 ├── results/
-│   ├── figures/    figure5_composite.png + individual panels (A, B, C, D, E, F, G)
+│   ├── figures/    figure5_composite.png + individual panels (A, B, C, D, E, F, G, H)
 │   ├── tables/     signature, ranked regulators, prediction metrics, gene sets, metadata
 │   └── reports/    summary.md + Word report + demo script
 ├── models/         pert2state_models.pkl (fitted models; ~41 MB)
