@@ -1,15 +1,12 @@
 # Mapping the CD4⁺ T-cell ICB-resistance state to perturb-seq regulators
 
-*A Figure-5-style reproduction of the genome-scale CD4⁺ Perturb-seq analysis, replacing the
-young-vs-old aging signature with a checkpoint-immunotherapy responder-vs-non-responder
-(R-vs-NR) signature in melanoma.*
+*Using single-cell RNA-seq and genome-scale Perturb-seq to find the regulatory pathways in
+CD4⁺ T cells that drive the melanoma ICB responder-vs-non-responder (R-vs-NR) state.*
 
 ## Question
 
-The source paper (Figure 5) builds an aging signature from young-vs-old CD4⁺ scRNA-seq,
-then asks which perturb-seq knockdowns reproduce it. Here we ask the same question with
-a different state contrast: **which CD4⁺ knockdowns reproduce the transcriptional state
-that distinguishes ICB non-responders from responders?**
+**Which CD4⁺ knockdowns reproduce the transcriptional state that distinguishes ICB
+non-responders from responders — and are any of them druggable?**
 
 ## Method (mirrors the source notebooks)
 
@@ -93,8 +90,8 @@ is both the wrong therapeutic direction and essentially undruggable.
 
 ## Files
 
-- `figure5_composite.png` — 7-panel Figure 5 (A schematic, B volcano, C accuracy,
-  D regulator effects, E SAGA volcano, F interferon volcano, G drug targets)
+- `figure5_composite.png` — 8-panel composite (A schematic, B volcano, C accuracy,
+  D ranked regulators, E regulator effects, F SAGA volcano, G interferon volcano, H drug targets)
 - `CD4_RvsNR_signature.csv` — tumor signature + discovery + split-replication z-scores
 - `pert2state_models.pkl` — fitted models; `prediction_metrics.csv` — accuracy table
 - `ranked_regulators.csv` — ElasticNet coefficients (tumor), all regulators

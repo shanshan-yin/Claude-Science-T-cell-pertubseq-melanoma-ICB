@@ -19,7 +19,7 @@ non-responding — not merely what correlates.
 Interactive, self-contained pages (no install required):
 
 - **[Landing page](https://raw.githack.com/shanshan-yin/Claude-Science-T-cell-pertubseq-melanoma-ICB/main/websites/index.html)** — overview and links
-- **[Full report](https://raw.githack.com/shanshan-yin/Claude-Science-T-cell-pertubseq-melanoma-ICB/main/websites/report.html)** — the 8-panel Figure 5 with narrative:
+- **[Full report](https://raw.githack.com/shanshan-yin/Claude-Science-T-cell-pertubseq-melanoma-ICB/main/websites/report.html)** — the 8-panel composite figure with narrative:
   signature, prediction accuracy, opposing regulatory pathways, and druggable targets
 - **[Gene explorer](https://raw.githack.com/shanshan-yin/Claude-Science-T-cell-pertubseq-melanoma-ICB/main/websites/gene_explorer.html)** — look up any gene: its direction in
   the resistance signature, and whether it acts as a regulator or downstream target of
@@ -28,9 +28,12 @@ Interactive, self-contained pages (no install required):
 
 ## Summary of findings
 
-1. **The melanoma-tumor CD4⁺ resistance signature recapitulates known ICB-resistance biology.**
-   The CD38⁺CD39⁺ T-eee exhaustion and cytotoxic-CD4 programs are up in
-   non-responders; LEF1/TCF7/FOXP1 stem-memory is up in responders. In the
+1. **By GO/pathway enrichment, the resistance signature is dominated by cell-cycle and interferon programs, and the response signature by a Wnt/memory program.**
+   Genes up in non-responders are most strongly enriched for cell-cycle and
+   proliferation (E2F targets, G2-M checkpoint, mitotic cell cycle; adjusted
+   p ≈ 7×10⁻³⁹), with a secondary interferon-γ signaling signal (cellular
+   response to IFN-γ; adjusted p ≈ 2×10⁻⁵). Genes up in responders are enriched
+   for Wnt/β-catenin–TCF/LEF signaling — the stem/memory program. In the
    volcano, 218 genes are up in non-responders and 91 up in responders.
 2. **The healthy-donor Perturb-seq atlas predicts the tumor signature strongly.**
    Held-out cross-validation Pearson r = **0.57** (Rest), 0.51 (Stim 8 hr),
