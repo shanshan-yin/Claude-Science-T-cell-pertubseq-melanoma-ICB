@@ -1,5 +1,5 @@
 """
-Assemble the 8-panel Figure 5 composite (A-H).
+Assemble the 8-panel composite figure (A-H).
 
 Tiles the eight committed panel PNGs in results/figures/ into the final
 figure5_composite.png. The individual panels are produced by scripts 04-07
@@ -73,7 +73,7 @@ for lab, pos in layout:
     ax.imshow(mpimg.imread(os.path.join(FIG_DIR, panels[lab])))
     ax.axis("off")
     ax.text(-0.02, 1.02, lab, transform=ax.transAxes, fontsize=20, fontweight="bold", va="bottom", ha="left")
-fig.suptitle("Figure 5.  Perturb-seq regulators that reproduce the CD4\u207a T-cell ICB-resistance signature",
+fig.suptitle("Perturb-seq regulators that reproduce the CD4\u207a T-cell ICB-resistance signature",
              fontsize=22, fontweight="bold", y=0.905, x=0.5)
 fig.savefig(os.path.join(FIG_DIR, "figure5_composite.png"), dpi=150, bbox_inches="tight")
 plt.close(fig)
