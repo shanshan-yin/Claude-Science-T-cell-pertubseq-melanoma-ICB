@@ -18,10 +18,10 @@ non-responding — not merely what correlates.
 
 Interactive, self-contained pages (no install required):
 
-- **[Landing page](https://raw.githack.com/shanshan-yin/Claude-Science-T-cell-pertubseq-melanoma-ICB/main/websites/index.html)** — overview and links
-- **[Full report](https://raw.githack.com/shanshan-yin/Claude-Science-T-cell-pertubseq-melanoma-ICB/main/websites/report.html)** — the 8-panel composite figure with narrative:
+- **[Landing page](https://shanshan-yin.github.io/Claude-Science-T-cell-pertubseq-melanoma-ICB/)** — overview and links
+- **[Full report](https://shanshan-yin.github.io/Claude-Science-T-cell-pertubseq-melanoma-ICB/report.html)** — the 8-panel composite figure with narrative:
   signature, prediction accuracy, opposing regulatory pathways, and druggable targets
-- **[Gene explorer](https://raw.githack.com/shanshan-yin/Claude-Science-T-cell-pertubseq-melanoma-ICB/main/websites/gene_explorer.html)** — look up any gene: its direction in
+- **[Gene explorer](https://shanshan-yin.github.io/Claude-Science-T-cell-pertubseq-melanoma-ICB/gene_explorer.html)** — look up any gene: its direction in
   the resistance signature, and whether it acts as a regulator or downstream target of
   a pathway
 
