@@ -1,7 +1,6 @@
 # Mapping the CD4⁺ T-cell ICB-resistance state to perturb-seq regulators
 
-*Using single-cell RNA-seq and genome-scale Perturb-seq to find the regulatory pathways in
-CD4⁺ T cells that drive the melanoma ICB responder-vs-non-responder (R-vs-NR) state.*
+*Using scRNAseq and Perturb-seq to investigate the novel regulatory pathways in CD4+ T cells to change melanoma ICB non-responding state.*
 
 ## Question
 
